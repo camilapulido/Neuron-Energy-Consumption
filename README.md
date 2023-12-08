@@ -6,6 +6,6 @@ By using the ratiometric ATP sensor and the 2 lasers in alternate mode, one on i
 
 The first step to have a easier way to extract information by Re-formatting videos in their corresponding channels, by just filling the info correcponig to the experement details: 
 
-https://github.com/camilapulido/Neuron-Energy-Measurements/blob/cb3cae2c453b37236fdd5115e33bf6e08cf5cc5b/Syn-iATPsf-HALO_Switcher.py#L14-L26
+https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088bcca09bbec890cd816269deb/Code/ATPSnFr_Formating.py#L7-L11
 
 using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.html) Plugin select synaptic boutons and automatically extract signal information by running 
