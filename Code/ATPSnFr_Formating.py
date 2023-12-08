@@ -10,7 +10,6 @@ Culture = "Hippocampal\\iATPSnFR\\"
 Date = 230502
 Cell = 1
 
-
 ###################################################################
 FolderIN = "C:\\Users\\DATA\\"+Culture+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\"
 FolderOUT = FolderIN+"FormatedFiles\\"
@@ -41,7 +40,6 @@ for file in glob.glob(FolderIN+"*.fits"):
 		FinalName = Type+OriginalName
 		Arguments = str(switch+1)
 		
-		#IJ.runMacroFile("C:\\Users\\cmp2010\\Dropbox\\LABORATORY\\ImageJ\\Slice_Keeper.ijm", "1")
 		imp = IJ.run("Slice Keeper", "first="+Arguments+" last="+str(slices_nb)+" increment=2");
 		stack = IJ.selectWindow(FinalName+" kept stack")
 		stack = IJ.getImage()
