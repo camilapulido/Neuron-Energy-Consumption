@@ -2,21 +2,17 @@ from ij import IJ, ImagePlus
 from ij.plugin.filter import PlugInFilterRunner
 import os
 import glob
-
-#import sys
-#sys.path.append("C:\\Users\\cmp2010\\Dropbox\\LABORATORY\\ImageJ\\")  # the folder containing Hello_.py
-#from Slice_Keeper import Hello
 #################
 ###################################################################
-Sensor = "SyniATPsf-HALO"
-
 ########## VARIABLES ###############"
+Sensor = "SyniATPsf-HALO"
 Culture = "Hippocampal\\iATPSnFR\\"
-
 Date = 230502
 Cell = 1
 
-FolderIN = "C:\\Users\\cmp2010\\Dropbox\\LABORATORY\\DATA\\"+Culture+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\"
+
+###################################################################
+FolderIN = "C:\\Users\\DATA\\"+Culture+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\"
 FolderOUT = FolderIN+"FormatedFiles\\"
 
 if not os.path.exists(FolderOUT):
