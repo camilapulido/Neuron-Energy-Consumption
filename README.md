@@ -1,4 +1,4 @@
-##  Data Collection, Analysis and Visialization of Energy Signals within Neuronal Synapses.
+#  Data Collection, Analysis and Visialization of Energy Signals within Neuronal Synapses.
 Author: Camila Pulido. PhD.
 
 ## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
