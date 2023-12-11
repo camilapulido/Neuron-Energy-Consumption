@@ -33,7 +33,7 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28
 
 At this point, the data is organized and prepared for analysis!
 
-## II. Some analytics of ATP dynamics in Synaptic boutons**
+## II. Some analytics of ATP dynamics at Synaptic bouton level:
 
 The human brain, an exceedingly delicate and resource-intensive organ, relies on the constant synthesis of energy molecules, specifically adenosine triphosphate (ATP), to sustain its activities and ensure the proper functioning and maintenance of neurons. Striking a precise balance between ATP synthesis and consumption is imperative to prevent any form of brain dysfunction that may lead to neuronal degeneration. 
 
