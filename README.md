@@ -1,4 +1,4 @@
-#  Unraveling Neuronal Energetics: A Comprehensive protocol for Data Collection, Analysis, and Visualization within Neuronal Synapses.
+#  Unraveling Neuronal Energetics: A protocol for Data Collection, Analysis, and Visualization within Neuronal Synapses.
 Author: Camila Pulido. PhD.
 
 ## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
