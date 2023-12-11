@@ -1,4 +1,4 @@
-##  Protocol for Energy Measurements in Neurnal Synapses
+##  Data Collection, Analysis and Visialization of Energy Measurements in Neuronal Synapses.
 Author: Camila Pulido. PhD.
 
 ## I. Image processing: Extract and organize fluorescent signal from individuals boutons from a neuron
