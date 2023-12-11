@@ -6,7 +6,7 @@ The ratiometric ATP sensor approach uses 2 lasers wavelengths (488 and second on
 
 <img src="./Images/Switcher_Laser 637-488.gif" alt="Neuron" style="width: 250px;"/>
 
-The first step to have a easier way to extract information by Re-formatting videos in their corresponding channels, by just filling some info relevanto from the experiment settings: 
+The first step to have a easier way to extract information by **Re-formatting** the videos by splitting into their corresponding channels, by just filling some info relevanto from the experiment settings: 
 
 https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088bcca09bbec890cd816269deb/Code/ATPSnFr_Formating.py#L7-L11
 
