@@ -51,4 +51,7 @@ Therefore, ATP ratio signal can be calculated per individual bouton, normalized 
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
 
-Getting an idividual sigmoidal fit per synaptic bouton: 
+[Execute function](https://github.com/camilapulido/Neuron-Energy-Measurements/blob/cdeef732a4266d3b09e8294695a45acc847ba25c/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L239) to to get idividual sigmoidal fits. Visualization plot:
+
+<img src="./Images/ExpC1_Sigmoid Fit Traces.png" alt="XYplot Sigmoid Fit" style="width: 350px;"/>
+
