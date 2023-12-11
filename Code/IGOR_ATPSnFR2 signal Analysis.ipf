@@ -3,8 +3,8 @@
 
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 
-Function Load0GlucStim_SyniATPsf_BTNS(Fecha,CellNo)
-	String Fecha
+Function Load0GlucStim_SyniATPsf_BTNS(S_Date,CellNo)
+	String S_Date
 	Variable CellNo //, NoGluc, No0gluc
 	string Type = ""
 	
@@ -12,7 +12,7 @@ Function Load0GlucStim_SyniATPsf_BTNS(Fecha,CellNo)
 	string Path  = "E:"+Culture+":SyniATPsf-HALO:2023:"
 	
 	variable x, y, Total, NoRnd,Sol
-	string NameFolder = Fecha+"_C"+num2str(CellNo)
+	string NameFolder = S_Date+"_C"+num2str(CellNo)
 	String NameOUT, NameIN
 	string NameINtemp, NameOUTemp
 	
@@ -28,7 +28,7 @@ Function Load0GlucStim_SyniATPsf_BTNS(Fecha,CellNo)
 	
 	for(x=0; x<=itemsinlist(SensorType)-1;x+=1)
 		for (Sol=0; Sol<=itemsinlist(SolType)-1;Sol+=1)
-			NameIN = Fecha+"_"+stringfromlist(x,SensorType)+"_C"+num2str(CellNo)+Type+"_"+stringfromlist(Sol,SolType)
+			NameIN = S_Date+"_"+stringfromlist(x,SensorType)+"_C"+num2str(CellNo)+Type+"_"+stringfromlist(Sol,SolType)
 			NameOUT = stringfromlist(x,SensorTypeOUT)+"_"+stringfromlist(Sol,SolTypeOUT)
 			
 			NameList[counter]=NameOUT
