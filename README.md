@@ -45,6 +45,10 @@ The subsequent plot illustrates the impact on synaptic boutons ATP levels when s
 
 The visualization of individual bouton ratio signals in a XYplot accentuates the kinetics of ATP depletion, providing a clearer depiction: 
 
-<img src="./Images/ExpC1_TracesBoutons_SortBy BL.png" alt="XYplot Ratio signal" style="width: 250px;"/>
+<img src="./Images/ExpC1_TracesBoutons_SortBy BL.png" alt="XYplot Ratio signal" style="width: 350px;"/>
 
+Therefore, ATP ratio signal can be calculated per individual bouton, normalized to the baseline and fitted with a Boltzmann’s sigmoidal function from the time that koningic acid was administered, as follows: 
 
+![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
+
+Getting an idividual sigmoidal fit per synaptic bouton: 
