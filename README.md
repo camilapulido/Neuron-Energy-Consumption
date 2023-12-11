@@ -22,7 +22,7 @@ Automatically get and save background signal by drawing ROIS corresponding to th
 
 Load signal information into matrix arrays from all the boutons and their corresponding background signals into IGOR-PRO (wavemetrics) program. 
 
-
+https://github.com/camilapulido/Neuron-Energy-Measurements/blob/4542016bde86354657417ed060379e6ccbe7fe08/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L6
 
 Correct all synaptic boutons signalling by subtracting the background noise.
 
