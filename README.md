@@ -1,8 +1,8 @@
 ## Protocol for Energy Measurements in Neurnal Synapses
 
-**1) Image processing: extract fluorescent signal from individuals boutons from a neuron.**
+## I. Image processing: extract fluorescent signal from individuals boutons from a neuron
 
-This is a protocol for analysis of ATP dynamics in ysnaptic boutons using a new generation of genetically enginered biosensors (ATPSnFR2), recently [published](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called ATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
 
 This protocol is intendded to be used with to Analysis programs: ImajeJ (Fiji) and IGOR-Pro (wavemetrics).
 
@@ -30,7 +30,13 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28
 
 Now, Data should organized and ready to get analyzed!!
 
-**2) Some analytics of ATP dynamics in Synaptic boutons**
+## II. Some analytics of ATP dynamics in Synaptic boutons**
+
+The human brain, an exceedingly delicate and resource-intensive organ, relies on the constant synthesis of energy molecules, specifically adenosine triphosphate (ATP), to sustain its activities and ensure the proper functioning and maintenance of neurons. Striking a precise balance between ATP synthesis and consumption is imperative to prevent any form of brain dysfunction that may lead to neuronal degeneration. 
+
+The precise energy balance is achieved when neurons have sustained access to a fuel source to facilitate ongoing ATP synthesis. Glucose serves as the primary fuel for neurons and other cells, undergoing enzymatic conversion in a pathway known as 'Glycolysis'. In this process, glucose molecules break down into pyruvate, generating ATP along the way. However, disruptions in Glycolysis, whether caused by the malfunction of key enzymes or the removal of the fuel source, promptly hinder the production of new ATP within synaptic boutons. Consequently, the local reserve is rapidly depleted, leading to a cessation of neuronal function. This intricate interplay between energy synthesis and utilization underscores the critical importance of maintaining a delicate equilibrium to safeguard the intricate workings of the human brain.
+
+The following plot exemplify 
 
 <img src="./Images/ExpC1_matrixBoutons.png" alt="Signal Ratio per bouton" style="width: 500px;"/>
 
