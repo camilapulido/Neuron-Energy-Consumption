@@ -47,12 +47,11 @@ The visualization of individual bouton ratio signals in a XYplot accentuates the
 
 <img src="./Images/ExpC1_TracesBoutons_SortBy BL.png" alt="XYplot Ratio signal" style="width: 350px;"/>
 
-Therefore, ATP ratio signal can be calculated per individual bouton, normalized to the baseline and fitted with a Boltzmann’s sigmoidal function from the time that koningic acid was administered, as follows: 
+At the single bouton level, ATP signals declined very rapidly (typically showing depletion within ~ 10-20 sec) but only after a delay time that varied significantly across boutons. Individual bouton ATP levels under these conditions were best described by a simple Boltzmann function from the time that koningic acid was administered, as follows: 
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
 
-Where t1/2 is the t value where Y is at (base + max)/2, and a represents the rate of signal drop
-derived from:
+Where t1/2 is the t value where Y is at (base + max)/2, and a represents the rate of signal drop derived from:
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/986b66ed-a20b-4b8c-82e3-e6edb0d39d0a)
 
@@ -65,7 +64,7 @@ Normalization of representative traces illustrate that individual boutons have u
 
 <img src="./Images/sigmoidFit_Traces.png" alt="Selected Sigmoid Fit" style="width: 350px;"/>
 
-Cross correlation of single bouton depletion rates versus t½ values shows there is in general an inverse relationship between these parameters, with some cells occupying regions of the parameter space: 
+A correlation analysis of the two extracted parameters showed that in general smaller t½ were associated with higher values of a (Fig. 4e) and vice versa. Some cells showed tighter clustering of rate and t½ parameters than others: 
 
 <img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
