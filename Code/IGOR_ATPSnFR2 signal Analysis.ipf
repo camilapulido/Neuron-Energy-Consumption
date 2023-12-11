@@ -1,3 +1,6 @@
+###--- Analysis scripts made by CAMILA PULIDO for ATPSnFR2 Data load and boutons Analysis 
+###########################################################################################
+
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 
 Function Load0GlucStim_SyniATPsf_BTNS(Fecha,CellNo)
