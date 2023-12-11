@@ -1,7 +1,10 @@
 ## Protocol for Energy Measurements in Neurnal Synapses
 
-**1) Image processing: extract fluorscent signal from individuals boutons from a neuron.**
+**1) Image processing: extract fluorescent signal from individuals boutons from a neuron.**
+
 This is a protocol for analysis of ATP dynamics in ysnaptic boutons using a new generation of genetically enginered biosensors (ATPSnFR2), recently [published](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+
+This protocol is intendded to be used with to Analysis programs: ImajeJ (Fiji) and IGOR-Pro (wavemetrics).
 
 The ratiometric ATP sensor approach uses 2 lasers wavelengths (488 and second one depending the normalization protein) in alternate mode between camera frames, as illustrated next:
 
