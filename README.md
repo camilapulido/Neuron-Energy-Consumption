@@ -69,7 +69,10 @@ Cross correlation of single bouton depletion rates versus t½ values shows there
 
 <img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
-Rate values can be visualited by association with bouton localization: 
+Rate values can be visualited in association with synaptic boutons localization: 
+
+<img src="./Images/ExpC1_Rate in image neuron.png" alt="Rate in Image" style="width: 350px;"/>
 
 Same with t½ values:
 
+<img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 350px;"/>
