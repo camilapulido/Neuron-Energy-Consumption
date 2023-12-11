@@ -14,4 +14,6 @@ Using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.htm
 
 <img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron" style="width: 250px;"/>
 
-Extract background signal by drawing ROIS corresponding to the bacground of neurons, automattlycaly eztrac info by running [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py)
+Extract background signal by drawing ROIS corresponding to the bacground of neurons, automatically extrac info by running [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py)
+
+
