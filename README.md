@@ -32,4 +32,7 @@ Now, Data should organized and ready to get analyzed!!
 
 **2) Some analytics of ATP dynamics in Synaptic boutons**
 
+<img src="./Images/ExpC1_matrixBoutons.png" alt="Signal Ratio per bouton" style="width: 250px;"/>
+
+
 
