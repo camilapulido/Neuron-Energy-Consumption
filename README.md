@@ -14,7 +14,7 @@ The first step to have a easier way to extract information by **Re-formatting** 
 
 https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088bcca09bbec890cd816269deb/Code/ATPSnFr_Formating.py#L7-L11
 
-Using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.html) Plugin select ROIS corresponding to synaptic boutons and automatically extract signal information of all the experimental conditions by running [Extracting Boutons siganl code](Code/Syn-iATPsf-HALO_Switcher.py), dont forget to save ROIS. 
+Using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.html) Plugin select ROIS corresponding to synaptic boutons and automatically extract signal information of all the experimental conditions by running [Extracting Boutons signal code](Code/Syn-iATPsf-HALO_Switcher.py), dont forget to save ROIS. 
 
 <img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron with ROIS" style="width: 250px;"/>
 
