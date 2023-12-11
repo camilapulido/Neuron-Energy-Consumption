@@ -1,6 +1,8 @@
 ## Protocol for Energy Measurements in Neurnal Synapses
 
-By using the ratiometric ATP sensor and the 2 lasers in alternate mode, one on in one frame and the other one in the following camera frame, as illustrated next:
+This is a protocol for analysis of ATP dynamics in ysnaptic boutons using a new generation of genetically enginered biosensors (ATPSnFR2), recently [published](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+
+The ratiometric ATP sensor approach uses 2 lasers wavelengths (488 and second one depending the normalization protein) in alternate mode between camera frames., one on in one frame and the other one in the following camera frame, as illustrated next:
 
 <img src="./Images/Switcher_Laser 637-488.gif" alt="Neuron" style="width: 250px;"/>
 
