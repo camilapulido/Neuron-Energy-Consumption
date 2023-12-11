@@ -67,6 +67,6 @@ Normalization of representative traces illustrate that individual boutons have u
 
 Cross correlation of single bouton depletion rates versus t½ values shows there is in general an inverse relationship between these parameters, with some cells occupying regions of the parameter space: 
 
-
+<img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
 
