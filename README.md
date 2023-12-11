@@ -43,5 +43,8 @@ The subsequent plot illustrates the impact on synaptic boutons ATP levels when s
 
 <img src="./Images/ExpC1_matrixBoutons.png" alt="Signal Ratio per bouton" style="width: 500px;"/>
 
-When plotting individual boutons traces, the ATP depletion kinetics are more evident to depict: 
+The visualization of individual bouton ratio signals in a XYplot accentuates the kinetics of ATP depletion, providing a clearer depiction: 
+
+<img src="./Images/ExpC1_matrixBoutons.png" alt="Signal Ratio per bouton" style="width: 500px;"/>
+
 
