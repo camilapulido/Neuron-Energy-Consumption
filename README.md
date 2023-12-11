@@ -26,6 +26,7 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/4542016bde863546
 
 Correct all synaptic boutons signalling by subtracting the background noise.
 
+https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28478aae6ce3137792bfc30dc3/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L73C1-L73C1
 
 Now, Data should organized and ready to get analyzed!!
 
