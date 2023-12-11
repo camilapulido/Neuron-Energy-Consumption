@@ -64,7 +64,7 @@ Normalization of representative traces illustrate that individual boutons have u
 
 <img src="./Images/sigmoidFit_Traces.png" alt="Selected Sigmoid Fit" style="width: 350px;"/>
 
-A correlation analysis of the two extracted parameters showed that in general smaller t½ were associated with higher values of a (Fig. 4e) and vice versa. Some cells showed tighter clustering of rate and t½ parameters than others: 
+A correlation analysis of the two extracted parameters showed that in general smaller t½ were associated with higher alpha values and vice-versa. Some cells showed tighter clustering of rate and t½ parameters than others (Each dot represent a bouton, same population color represent boutons coming from the same neuron): 
 
 <img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
@@ -75,3 +75,5 @@ Rate values can be visualized in association with synaptic boutons localization:
 Same with t½ values:
 
 <img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 500px;"/>
+
+Here is reported that iATPSnFR2 can provide detailed measurements of the variations in resting ATP values across synapses as well as the kinetics of ATP changes during metabolic perturbations at single synapse level. These data show for the first time that individual synapses behave as semi-independent metabolic units, as during metabolic stress, the kinetics of ATP depletion varied significantly even within the same axon.  
