@@ -69,4 +69,7 @@ Cross correlation of single bouton depletion rates versus t½ values shows there
 
 <img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
+Rate values can be visualited by association with bouton localization: 
+
+Same with t½ values:
 
