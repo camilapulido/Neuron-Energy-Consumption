@@ -65,6 +65,7 @@ Normalization of representative traces illustrate that individual boutons have u
 
 <img src="./Images/sigmoidFit_Traces.png" alt="Selected Sigmoid Fit" style="width: 350px;"/>
 
+Cross correlation of single bouton depletion rates versus t½ values shows there is in general an inverse relationship between these parameters, with some cells occupying regions of the parameter space: 
 
 
 
