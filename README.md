@@ -18,8 +18,16 @@ Using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.htm
 
 <img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron with ROIS" style="width: 250px;"/>
 
-Extract background signal by drawing ROIS corresponding to the background of neurons, automatically extract info by running [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py)
-Actomatically Load signal information from all the boutons into IGOR-PRO (wavemetrics), by creating matrix arrays with their information. Extract background signal to all boutons signal. Now, Data should organized and ready to get analyzed.
+Automatically get and save background signal by drawing ROIS corresponding to the background of neurons and by running [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py).
+
+Load signal information into matrix arrays from all the boutons and their corresponding background signals into IGOR-PRO (wavemetrics) program. 
+
+
+
+Correct all synaptic boutons signalling by subtracting the background noise.
+
+
+Now, Data should organized and ready to get analyzed!!
 
 **2) Some analytics of ATP dynamics in Synaptic boutons**
 
