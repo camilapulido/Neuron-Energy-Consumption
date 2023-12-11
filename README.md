@@ -2,11 +2,13 @@
 
 ## I. Image processing: extract fluorescent signal from individuals boutons from a neuron
 
-This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called ATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
 
 This protocol is intended to use two analysis programs: [ImageJ (Fiji)](https://fiji.sc/) and [IGOR Pro (wavemetrics)](https://www.wavemetrics.com/).
 
-The ratiometric ATP sensor approach uses 2 lasers wavelengths (488 and second one depending the normalization protein) in alternate mode between camera frames, as illustrated next:
+iATPSnFR2 is a variant of iATPSnFR1, a previously developed sensor that has circularly permuted super-folder GFP inserted between the ATP-binding helices of the ε-subunit of a bacterial F0-F1 ATPase. A chimeric version of this sensor fused to either the HaloTag protein or a suitably spectrally separated fluorescent protein, provides a ratiometric readout allowing comparisons of ATP across cellular regions. To capture the ATP signal accurately, the protocol necessitates the use of two separate wavelength lasers —one for the iATPSnFR2 signal and another for the tag protein. This dual-laser approach corrects the signal over sensor expression, enabling precise comparisons between synaptic boutons and across neurons.
+
+Live-imaging acquisition is programed to alternate laser wavelength signals between consecutive camera frames, as depicted below:
 
 <img src="./Images/Switcher_Laser 637-488.gif" alt="Neuron" style="width: 300px;"/>
 
