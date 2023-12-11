@@ -1,4 +1,5 @@
-## Protocol for Energy Measurements in Neurnal Synapses
+##  Protocol for Energy Measurements in Neurnal Synapses
+Author: Camila Pulido. PhD.
 
 ## I. Image processing: Extract and organize fluorescent signal from individuals boutons from a neuron
 
@@ -30,7 +31,7 @@ Correct synaptic boutons signals by subtracting background noise:
 
 https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28478aae6ce3137792bfc30dc3/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L73
 
-Now, Data should organized and ready to get analyzed!!
+At this point, the data is organized and prepared for analysis!
 
 ## II. Some analytics of ATP dynamics in Synaptic boutons**
 
