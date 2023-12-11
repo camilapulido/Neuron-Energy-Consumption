@@ -63,6 +63,9 @@ derived from:
 
 Normalization of representative traces illustrate that individual boutons have unique half-times (t½) to ATP depletion and unique rates of ATP consumption, as: 
 
+<img src="./Images/sigmoidFit_Traces.png" alt="Selected Sigmoid Fit" style="width: 350px;"/>
+
+
 
 
 
