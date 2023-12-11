@@ -12,7 +12,6 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088
 
 Using the ['Time Series Analizer'](https://imagej.net/ij/plugins/time-series.html) Plugin select ROIS corresponding to synaptic boutons and automatically extract signal information of all the experimental conditions by running [Extracting Boutons siganl code](Code/Syn-iATPsf-HALO_Switcher.py), dont forget to save ROIS. 
 
-
-
+<img src="./Images/Switcher_Laser 637-488.gif" alt="Neuron" style="width: 250px;"/>
 
 Extract background signal by drawing ROIS corresponding to the bacground of neurons, automattlycaly eztrac info by running [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py)
