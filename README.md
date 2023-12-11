@@ -19,7 +19,7 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088
 
 Utilize the ['Time Series Analyzer'](https://imagej.net/ij/plugins/time-series.html) Plugin to choose ROIs corresponding to synaptic boutons and effortlessly extract signal information for all experimental conditions, by simply executing the ['Extracting Boutons signal code'](Code/Syn-iATPsf-HALO_Switcher.py), ensuring to save the selected ROIs for future reference (one of the steps in the code).
 
-<img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron with ROIS" style="width: 300px;"/>
+<img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron with ROIS" style="width: 500px;"/>
 
 Draw ROIS corresponding to the background of neurons, and execute the [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py) to automatically get and save data signal.
 
@@ -71,8 +71,8 @@ Cross correlation of single bouton depletion rates versus t½ values shows there
 
 Rate values can be visualited in association with synaptic boutons localization: 
 
-<img src="./Images/ExpC1_Rate in image neuron.png" alt="Rate in Image" style="width: 350px;"/>
+<img src="./Images/ExpC1_Rate in image neuron.png" alt="Rate in Image" style="width: 500px;"/>
 
 Same with t½ values:
 
-<img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 350px;"/>
+<img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 500px;"/>
