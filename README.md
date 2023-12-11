@@ -1,7 +1,7 @@
 ##  Data Collection, Analysis and Visialization of Energy Signals from Neuronal Synapses.
 Author: Camila Pulido. PhD.
 
-## I. Image processing: Extract and organize fluorescent signal from individuals boutons from a neuron
+## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
 
 This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
 
@@ -33,7 +33,7 @@ https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28
 
 At this point, the data is organized and prepared for analysis!
 
-## II. Some analytics of ATP dynamics at Synaptic bouton level:
+## II. Analyzing ATP Dynamics at the Synaptic Bouton Level: Insights and Metrics
 
 The human brain, an exceedingly delicate and resource-intensive organ, relies on the constant synthesis of energy molecules, specifically adenosine triphosphate (ATP), to sustain its activities and ensure the proper functioning and maintenance of neurons. Striking a precise balance between ATP synthesis and consumption is imperative to prevent any form of brain dysfunction that may lead to neuronal degeneration. 
 
