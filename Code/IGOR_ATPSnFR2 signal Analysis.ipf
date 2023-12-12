@@ -1,4 +1,4 @@
-###--- Analysis scripts made by CAMILA PULIDO for ATPSnFR2 Data load and boutons Analysis 
+###--- Analysis scripts written by @camilapulido for iATPSnFR2 Data load and synaptic boutons Analysis ---- ###
 ###########################################################################################
 
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
