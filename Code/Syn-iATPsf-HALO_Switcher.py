@@ -7,7 +7,7 @@ from ij.io import FileSaver
 from ij.plugin.frame import RoiManager
 ###################################################################
 ###################################################################
-##--- This script utilize the 'Robot' function from ImageJ, therefore, some coordinates on your screen has to be setup in advance--
+##--- This script utilize the 'Robot' function from ImageJ, therefore, some coordinates have to be setup in advance--
 
 xVal= 1600 ## X Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
 yVal = 229 ## Y Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
