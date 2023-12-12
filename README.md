@@ -51,7 +51,7 @@ At the single bouton level, ATP signals declined very rapidly (typically showing
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
 
-Where t1/2 is the t value where Y is at (base + max)/2, and a represents the rate of signal drop derived from:
+Where t½ is the t value where Y is at (base + max)/2, and &alpha; represents the rate of signal drop derived from:
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/986b66ed-a20b-4b8c-82e3-e6edb0d39d0a)
 
