@@ -1,11 +1,16 @@
 #  Unraveling Neuronal Energetics: A protocol for Data Collection, Analysis, and Visualization within Neuronal Synapses.
 Author: Camila Pulido. PhD.
 
+##
+
+> [!NOTE]
+>* This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+>* This protocol is intended to use two analysis programs: [ImageJ (Fiji)](https://fiji.sc/) and [IGOR Pro (wavemetrics)](https://www.wavemetrics.com/).
+
+> [!IMPORTANT]
+> * Prior to implementing this protocol, users need to customize the provided code to align with their individual settings.
+
 ## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
-
-This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
-
-This protocol is intended to use two analysis programs: [ImageJ (Fiji)](https://fiji.sc/) and [IGOR Pro (wavemetrics)](https://www.wavemetrics.com/).
 
 iATPSnFR2 is a variant of iATPSnFR1, a previously developed sensor that has circularly permuted super-folder GFP inserted between the ATP-binding helices of the ε-subunit of a bacterial F0-F1 ATPase. A chimeric version of this sensor fused to either the HaloTag protein or a suitably spectrally separated fluorescent protein, provides a ratiometric readout allowing comparisons of ATP across cellular regions. To capture the ATP signal accurately, the protocol necessitates the use of two separate wavelength lasers —one for the iATPSnFR2 signal and another for the tag protein. This dual-laser approach corrects the signal over sensor expression, enabling precise comparisons between synaptic boutons and across neurons.
 
@@ -77,3 +82,4 @@ Same with t<sub>1/2</sub> values:
 <img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 500px;"/>
 
 Here is reported that iATPSnFR2 can provide detailed measurements of the variations in resting ATP values across synapses as well as the kinetics of ATP changes during metabolic perturbations at single synapse level. These data show for the first time that individual synapses behave as semi-independent metabolic units, as during metabolic stress, the kinetics of ATP depletion varied significantly even within the same axon.  
+
