@@ -7,10 +7,10 @@ import os
 import time
 import glob
 ###### Setup Val ####
-xVal= 1600 ##2900 ##1250 ## x value to click in Get Avg
-yVal = 229 
-#waiting = 1000000
-#waitmore =10000000
+##--- This script utilize the robot funtion from ImageJ, therefore some coordinates on your screen has to be setup in advance--
+
+xVal= 1600 ## X Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
+yVal = 229 ## Y Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
 
 Waitfor = 1  # in seconds
 ##################################################################
@@ -44,14 +44,10 @@ for file in glob.glob(FolderIN+"*.fits"):
 	OUTName = OriginalName[:len(OriginalName)-5]
 	NameOUT = "Black_"+str(Date)+"_"+OUTName
 	
-	#for x in range(0,waiting):
-	#	x=x
 	time.sleep(Waitfor)
 	IJ.run("IJ Robot", "order=Left_Click x_point="+str(xVal)+" y_point="+str(yVal)+" delay=50 keypress=[]")  ## GET AVG
 	time.sleep(Waitfor)
-	#for x in range(0,waitmore):
-	#	x=x
-
+	
  	IJ.renameResults("Time Trace(s)", "Results") 
 	Results2 = ResultsTable.getResultsTable()
 	AVG = Results2.getColumn(Results2.getColumnIndex("Average"))
