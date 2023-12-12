@@ -1,3 +1,6 @@
+### Code written by @camilapulido -- Intended to extract and save  HALO and ATP signals from Imaging data collected by neuronal Live-imaging usisng iATPSnFR2 biosensor --- ###
+#####
+
 from ij.measure import ResultsTable
 from ij import IJ, ImageStack
 from ij import WindowManager as WM
