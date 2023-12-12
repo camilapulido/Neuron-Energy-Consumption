@@ -1,4 +1,4 @@
-### Code written by @camilapulido -- Intended to extract and save baclground noise signal from Imaging data collected by neuronal Live-imaging usisng iATPSnFR2 biosensor --- ###
+### Code written by @camilapulido -- Intended to extract and save background noise signal from Imaging data collected by neuronal Live-imaging usisng iATPSnFR2 biosensor --- ###
 #####
 from ij import IJ, ImagePlus
 from ij import WindowManager as WM 
