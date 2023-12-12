@@ -26,7 +26,7 @@ Utilize the ['Time Series Analyzer'](https://imagej.net/ij/plugins/time-series.h
 
 <img src="./Images/ExpC1_picNeuron + ROIs.png" alt="Neuron with ROIS" style="width: 500px;"/>
 
-Draw ROIS corresponding to the background of neurons, and execute the [Background code](Code/Syn-iATPsf-HALO_NoStim_BLACK.py) to automatically get and save data signal.
+Draw ROIS corresponding to the background of neurons, and execute the [Background code](Code/Syn-iATPsf-HALO_NoStim_Background.py) to automatically get and save data signal.
 
 Import the signal information from all boutons, along with their corresponding background signals, into the IGOR-PRO program (wavemetrics), organizing them into matrix arrays for further analysis.
 
