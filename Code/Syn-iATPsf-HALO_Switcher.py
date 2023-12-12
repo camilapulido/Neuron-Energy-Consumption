@@ -11,6 +11,7 @@ from ij.plugin.frame import RoiManager
 
 xVal= 1600 ## X Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
 yVal = 229 ## Y Pixel coordinate where Time-Series-Analyzer's'Get Average' Bouton is going to be located
+YCenter = 190 ##  Y Pixel coordinate where Time-Series-Analyzer's'Recenter' Bouton is going to be located
 
 Waitfor = 1  # in seconds
 ###################################################################
@@ -21,20 +22,19 @@ CRE = ""
 Date = 230502
 Cell = 1
 
-Drug = ""
+knockout = "" 
 
-Calibration = 2  ## 0 = glucose & 0Gluc; 2 = Save Rois
+Calibration = 0  ## 0 = glucose & 0Gluc; 2 = Save Rois
 step = 0    ## 0 = Glucose; 1= Test Solution
 
 ##########################
+SolList = ["Gluc5',"KAG0TTX"]
+SolNo =[5,7] #
 
-SolList = ["KAG0TTX"]
-SolNo =[7] #
-#SolNo =[NoGlucose,NoTestSolution,NoWashSol]
-
+################
 SensorType = ["Halo650x","iATPsf"]
 ######################################################################
-window = 50   ## how many frames to AVG in the center
+RecenterWindow = 50   ## how many frames to Recenter AVG
 
 FolderOUT = "C:\\Users\\LABORATORY\\ANALYSIS\\"+Culture+CRE+"\\"+Sensor+"\\2023\\"+str(Date)+"_C"+str(Cell)+"\\"
 FolderIN = "C:\\Users\\LABORATORY\\DATA\\"+Culture+CRE+"\\"+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\FormatedFiles\\"
@@ -48,8 +48,8 @@ if Calibration == 0:
 	Total = SolNo [step]
 	
 	for Rounds in range(0,Total):	
-		for CellType in SensorType:
-			Name = CellType+"_C"+str(Cell)+"_"+Drug+Type
+		for Sensor in SensorType:
+			Name = Sensor+"_C"+str(Cell)+"_"+knockout+Type
 			if Rounds == 0:
 				NameIN = Name
 				NameOUT = str(Date)+"_"+Name
@@ -63,10 +63,10 @@ if Calibration == 0:
 			impOriginal.show()
 			impOriginal = IJ.getImage()
 			
-			if CellType == SensorType[0]:
+			if Sensor == SensorType[0]:
 				HALOName = impOriginal.title
 				HALOpathOUT = FolderOUT+NameOUT 
-			if CellType == SensorType[1]:
+			if Sensor == SensorType[1]:
 				iATPName = impOriginal.title
 				iATPpathOUT = FolderOUT+NameOUT 
 		
@@ -79,14 +79,14 @@ if Calibration == 0:
 		TotalFrames = impOriginal.getDimensions()
 		TotalFrames = TotalFrames[3]
 		
-		division = int(round(TotalFrames/window,0))+1
+		division = int(round(TotalFrames/RecenterWindow,0))+1
 		
-		for interation in range (0,division):
+		for interaction in range (0,division):  ## Setting frame # for recentering ROIs in Halo channel
 			start = stop
-			if interation == division-1:
+			if interaction == division-1:
 				stop = TotalFrames
 			else:
-				stop = start+window	
+				stop = start+RecenterWindow	
 			####### HALO ##############
 			imp = IJ.selectWindow(HALOName)  #### JUSt recenter in HALO
 			imp = IJ.getImage()
@@ -95,7 +95,7 @@ if Calibration == 0:
 	
 			time.sleep(Waitfor)
 			
-			IJ.run("IJ Robot", "order=Left_Click x_point="+str(xVal)+" y_point=190 delay=185 keypress=[]") ## RECENTER
+			IJ.run("IJ Robot", "order=Left_Click x_point="+str(xVal)+" y_point=(YCenter) delay=185 keypress=[]") ## RECENTER
 			
 			time.sleep(Waitfor)
 			
