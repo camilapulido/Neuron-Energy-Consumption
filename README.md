@@ -51,7 +51,7 @@ At the single bouton level, ATP signals declined very rapidly (typically showing
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
 
-Where t½ is the t value where Y is at (base + max)/2, and &alpha; represents the rate of signal drop derived from:
+Where t<sub>1/2</sub> is the t value where Y is at (base + max)/2, and &alpha; represents the rate of signal drop derived from:
 
 ![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/986b66ed-a20b-4b8c-82e3-e6edb0d39d0a)
 
@@ -60,11 +60,11 @@ Where t½ is the t value where Y is at (base + max)/2, and &alpha; represents th
 
 <img src="./Images/ExpC1_Sigmoid Fit traces.png" alt="XYplot Sigmoid Fit" style="width: 350px;"/>
 
-Normalization of representative traces illustrate that individual boutons have unique half-times (t½) to ATP depletion and unique rates of ATP consumption, as: 
+Normalization of representative traces illustrate that individual boutons have unique half-times (t<sub>1/2</sub>) to ATP depletion and unique rates of ATP consumption, as: 
 
 <img src="./Images/sigmoidFit_Traces.png" alt="Selected Sigmoid Fit" style="width: 350px;"/>
 
-A correlation analysis of the two extracted parameters showed that in general smaller t½ were associated with higher alpha values and vice-versa. Some cells showed tighter clustering of rate and t½ parameters than others (Each dot represent a bouton, same population color represent boutons coming from the same neuron): 
+A correlation analysis of the two extracted parameters showed that in general smaller t½ were associated with higher alpha values and vice-versa. Some cells showed tighter clustering of rate and t<sub>1/2</sub> parameters than others (Each dot represent a bouton, same population color represent boutons coming from the same neuron): 
 
 <img src="./Images/Figure Rate Vs thalf.png" alt="Rate Vs thalf" style="width: 350px;"/>
 
@@ -72,7 +72,7 @@ Rate values can be visualized in association with synaptic boutons localization:
 
 <img src="./Images/ExpC1_Rate in image neuron.png" alt="Rate in Image" style="width: 500px;"/>
 
-Same with t½ values:
+Same with t<sub>1/2</sub> values:
 
 <img src="./Images/ExpC1_Xhalf in image neuron.png" alt="Thalf in Image" style="width: 500px;"/>
 
