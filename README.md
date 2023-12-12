@@ -15,7 +15,7 @@ Live-imaging acquisition is programed to alternate laser wavelength signals betw
 
 The initial step towards simplifying information extraction involves reformatting the videos by splitting them into their respective channels. This can be achieved effortlessly using the following code, with the user only needing to input pertinent information from the experiment settings.
 
-https://github.com/camilapulido/Neuron-Energy-Measurements/blob/52015720e7617088bcca09bbec890cd816269deb/Code/ATPSnFr_Formating.py#L7-L11
+https://github.com/camilapulido/Neuron-Energy-Consumption/blob/52015720e7617088bcca09bbec890cd816269deb/Code/ATPSnFr_Formating.py#L7-L11
 
 Utilize the ['Time Series Analyzer'](https://imagej.net/ij/plugins/time-series.html) Plugin to choose ROIs corresponding to synaptic boutons and effortlessly extract signal information for all experimental conditions, by simply executing the ['Extracting Boutons signal code'](Code/Syn-iATPsf-HALO_Switcher.py), ensuring to save the selected ROIs for future reference (one of the steps in the code).
 
@@ -25,11 +25,11 @@ Draw ROIS corresponding to the background of neurons, and execute the [Backgroun
 
 Import the signal information from all boutons, along with their corresponding background signals, into the IGOR-PRO program (wavemetrics), organizing them into matrix arrays for further analysis.
 
-https://github.com/camilapulido/Neuron-Energy-Measurements/blob/4542016bde86354657417ed060379e6ccbe7fe08/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L6
+https://github.com/camilapulido/Neuron-Energy-Consumption/blob/4542016bde86354657417ed060379e6ccbe7fe08/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L6
 
 Correct synaptic boutons signals by subtracting background noise:
 
-https://github.com/camilapulido/Neuron-Energy-Measurements/blob/63ba863a9252eb28478aae6ce3137792bfc30dc3/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L73
+https://github.com/camilapulido/Neuron-Energy-Consumption/blob/63ba863a9252eb28478aae6ce3137792bfc30dc3/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L73
 
 At this point, the data is organized and prepared for analysis!
 
@@ -49,14 +49,14 @@ The visualization of individual bouton ratio signals in a XYplot accentuates the
 
 At the single bouton level, ATP signals declined very rapidly (typically showing depletion within ~ 10-20 sec) but only after a delay time that varied significantly across boutons. Individual bouton ATP levels under these conditions were best described by a simple Boltzmann function from the time that koningic acid was administered, as follows: 
 
-![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
+![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/8e84f1ba-b9e6-4e6e-8fb7-247e7c9c14cb)
 
 Where t1/2 is the t value where Y is at (base + max)/2, and a represents the rate of signal drop derived from:
 
-![image](https://github.com/camilapulido/Neuron-Energy-Measurements/assets/8860106/986b66ed-a20b-4b8c-82e3-e6edb0d39d0a)
+![image](https://github.com/camilapulido/Neuron-Energy-Consumption/assets/8860106/986b66ed-a20b-4b8c-82e3-e6edb0d39d0a)
 
 
-[Execute function](https://github.com/camilapulido/Neuron-Energy-Measurements/blob/cdeef732a4266d3b09e8294695a45acc847ba25c/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L239) to to get idividual sigmoidal fits. Visualization plot:
+[Execute function](https://github.com/camilapulido/Neuron-Energy-Consumption/blob/cdeef732a4266d3b09e8294695a45acc847ba25c/Code/IGOR_ATPSnFR2%20signal%20Analysis.ipf#L239) to to get idividual sigmoidal fits. Visualization plot:
 
 <img src="./Images/ExpC1_Sigmoid Fit traces.png" alt="XYplot Sigmoid Fit" style="width: 350px;"/>
 
