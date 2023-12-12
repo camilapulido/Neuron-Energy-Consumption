@@ -9,6 +9,7 @@ Author: Camila Pulido. PhD.
 
 > [!IMPORTANT]
 > * Prior to implementing this protocol, users need to customize the provided code to align with their individual settings.
+> * Maintain consistent file naming formatting across all experiments.
 
 ## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
 
