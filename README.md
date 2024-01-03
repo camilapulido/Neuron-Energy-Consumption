@@ -11,7 +11,7 @@ Author: Camila Pulido. PhD.
 > * Prior to implementing this protocol, users need to customize the provided code to align with their individual settings.
 > * Maintain consistent file naming formatting across all experiments.
 
-## I. Image Processing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
+## I. Image Preprocessing: Extracting and Organizing Fluorescent Signals from Individual Boutons within a Neuron:
 
 iATPSnFR2 is a variant of iATPSnFR1, a previously developed sensor that has circularly permuted super-folder GFP inserted between the ATP-binding helices of the ε-subunit of a bacterial F0-F1 ATPase. A chimeric version of this sensor fused to either the HaloTag protein or a suitably spectrally separated fluorescent protein, provides a ratiometric readout allowing comparisons of ATP across cellular regions. To capture the ATP signal accurately, the protocol necessitates the use of two separate wavelength lasers —one for the iATPSnFR2 signal and another for the tag protein. This dual-laser approach corrects the signal over sensor expression, enabling precise comparisons between synaptic boutons and across neurons.
 
