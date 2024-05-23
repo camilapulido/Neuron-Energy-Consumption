@@ -4,7 +4,7 @@ Author: Camila Pulido. PhD.
 ##
 
 > [!NOTE]
->* This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.biorxiv.org/content/10.1101/2023.08.24.554624v1)
+>* This protocol delineates the analysis of ATP dynamics within synaptic boutons, employing the last generation of the genetically engineered ATP biosensors, called iATPSnFR2, as detailed in a recent [publication](https://www.pnas.org/doi/10.1073/pnas.2314604121)
 >* This protocol is intended to use two analysis programs: [ImageJ (Fiji)](https://fiji.sc/) and [IGOR Pro (wavemetrics)](https://www.wavemetrics.com/).
 
 > [!IMPORTANT]
