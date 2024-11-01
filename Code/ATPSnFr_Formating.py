@@ -13,7 +13,7 @@ Date = 230502
 Cell = 1
 
 ###################################################################
-FolderIN = "C:\\Users\\DATA\\"+Culture+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\"
+FolderIN = "C:\\...\\"+Culture+Sensor+"\\"+str(Date)+"\\C"+str(Cell)+"\\"
 FolderOUT = FolderIN+"FormatedFiles\\"
 
 if not os.path.exists(FolderOUT):
