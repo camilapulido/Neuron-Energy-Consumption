@@ -28,8 +28,8 @@ Cell = 1
               
 #############################################
 
-FolderOUT = "C:\\Users\\LABORATORY\\ANALYSIS\\"+Culture+CRE+"\\"+Sensor+"\\2023\\"+str(Date)+"_C"+str(Cell)+"\\"
-FolderIN = "C:\\Users\\LABORATORY\\DATA\\"+Culture+CRE+"\\"+Sensor+"\\2023\\"+str(Date)+"\\C"+str(Cell)+"\\FormatedFiles\\"
+FolderOUT = "C:\\...\\"+Culture+CRE+"\\"+Sensor+"\\"+str(Date)+"_C"+str(Cell)+"\\"
+FolderIN = "C:\\...\\"+Culture+CRE+"\\"+Sensor+"\\"+str(Date)+"\\C"+str(Cell)+"\\FormatedFiles\\"
 
 if not os.path.exists(FolderOUT):
 	os.makedirs(FolderOUT)
