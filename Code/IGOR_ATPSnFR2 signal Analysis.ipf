@@ -16,8 +16,8 @@ Function Load0GlucStim_SyniATPsf_BTNS(S_Date,CellNo)
 	String NameOUT, NameIN
 	string NameINtemp, NameOUTemp
 	
-	String/G SolType = "2DGTTX"
-	String/G SolTypeOUT = "2DGTTX"
+	String/G SolType = ""
+	String/G SolTypeOUT = ""
 	Make/O TotalSol = {6}
 	
 	String/G SensorType = "HALO650x;iATPsf"
