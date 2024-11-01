@@ -25,7 +25,7 @@ CRE = ""
 Date = 230502
 Cell = 1
 
-knockout = "" 
+KO = "" 
 
 Calibration = 0  ## 0 = glucose & 0Gluc; 2 = Save Rois
 step = 0    ## 0 = Glucose; 1= Test Solution
@@ -52,7 +52,7 @@ if Calibration == 0:
 	
 	for Rounds in range(0,Total):	
 		for Sensor in SensorType:
-			Name = Sensor+"_C"+str(Cell)+"_"+knockout+Type
+			Name = Sensor+"_C"+str(Cell)+"_"+KO+Type
 			if Rounds == 0:
 				NameIN = Name
 				NameOUT = str(Date)+"_"+Name
